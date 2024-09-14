@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "ca5b058e-9b0f-44d5-a8bb-4023eed5cac6",
+		"name": "Rick and Morty",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19915623"
+	},
+	"item": [
+		{
+			"name": "Rick and Morty",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"character_id\": 3\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/character",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"character"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
